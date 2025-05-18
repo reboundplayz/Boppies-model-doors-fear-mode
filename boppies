@@ -4,7 +4,7 @@
 --]]
 
 -- Replace this with a reference to your model, e.g., game.Workspace.MyModel
-local model = rbxasset://16846474416
+local model = rbxassetid://16846474416
 
 -- Create a new Sound instance
 local sound = Instance.new("Sound")
