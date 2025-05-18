@@ -1,0 +1,24 @@
+--[[ 
+    Roblox Lua Script: Adds a Sound to a Model 
+    Fill in the placeholders for the sound ID and model reference 
+--]]
+
+-- Replace this with a reference to your model, e.g., game.Workspace.MyModel
+local model = rbxasset://16846474416
+
+-- Create a new Sound instance
+local sound = Instance.new("Sound")
+
+-- Set the SoundId to your audio asset ID
+-- Example: "rbxassetid://1234567890"
+sound.SoundId = "https://github.com/reboundplayz/Boppies-doors-fear-mode-sounds/raw/refs/heads/main/Project%20Name%202.mp3"
+
+-- Optional: Set sound properties (volume, loop, etc.)
+sound.Volume = 1
+sound.Looped = false
+
+-- Parent the sound to the model
+sound.Parent = model
+
+-- Optionally play the sound
+-- sound:Play()
